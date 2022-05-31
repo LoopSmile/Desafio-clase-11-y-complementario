@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 20px;
+    height: 340px;
+}
+.navbar-toggler{
+    background-color: #754228ed;
+}
+
+.navbar{
+    margin-top: 10px;
+    background-color: #754228ed;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 0 0 1px whitesmoke;
+}
+.nav-link{
+    color: white !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+}
+.nav-link:hover{
+    background-color: #754228;
+    border-radius: 5px;
+}
+main{
+    background-image: radial-gradient(circle, #754228, #7f4b30, #895439, #945d41, #9e664a, #aa7457, #b58264, #c19072, #d0a689, #e0bca0, #efd2b9, #ffe8d3);
+    height: 800px;
+}
+.menu{
+    margin-top: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+}
+.carousel{
+    padding-top: 10px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.carousel-item h3{
+    text-shadow: 0 0 2px black;
+}
+.carousel-item p{
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+}
+.carousel-indicators li{
+    width:10px; 
+    height:10px;  
+    border-radius: 50%;
+}
+
+.footer{
+    margin-top: 5px;
+    width: 100%;
+    height: 160px;
+    background-image: linear-gradient(to right, #754228, #7f4b30, #895439, #945d41, #9e664a, #aa7457, #b58264, #c19072, #d0a689, #e0bca0, #efd2b9, #ffe8d3);;
+}
+.footerList{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-column-gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer i {
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 1px white;
+}
+.footer p{
+    padding-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+/*quienes somos*/
+.paragraph{
+    padding-top: 30px;
+    padding-left: 50px;
+    height: 800px;
+}
+.paragraph h2{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.whoArepa img{
+    margin-top: 110px;
+    border-radius: 20px;
+    border: 1px groove rgba(255, 255, 255, 0.557);
+}
+/*ubicacion*/
+.textMap{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
